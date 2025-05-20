@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tinos";
+  padding-top: 80px;
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  font-size: 54px;
+  font-weight: 100;
+  margin-bottom: 70px;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1510px;
+}
+
+.swiper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper-wrapper {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  padding-top: 70px;
+}
+.card {
+  min-height: 510px;
+  width: 350px;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+gap: 44px;
+}
+.badge{
+  background-color: #D67E34;
+  width: 124px;
+  padding: 7px 11px 11px 12px;
+  font-weight: 400;
+font-size: 13px;
+color: #000;
+
+}
+
+.contain2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 225px;
+  gap: 17px;
+  p.card__title{
+    font-weight: 400;
+font-size: 26px;
+color: #000;
+  }
+  p.card__desc{
+    font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #000;
+max-width: 226px;
+  }
+  .card__button{
+    width: 220px;
+height: 50px;
+box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25);
+background: #d67e34;
+font-weight: 700;
+font-size: 16px;
+text-align: center;
+color: #fff;
+text-decoration: none;
+justify-content: center;
+align-items: center;
+display: flex;
+  }
+}
+
+
+.card:hover{
+  width: 400px;
+  transition: 0.5s;
+}
